@@ -1,0 +1,24 @@
+<% coach_answer = "" %>
+<% if params["question"].end_with?("?")
+  coach_answer = "Silly question, get dressed and go to work!"
+  %>
+
+<% elsif params["question"].downcase == "i am going to work"
+  coach_answer = "Great!"
+  %>
+<% else
+coach_answer = "I don't care, get dressed and go to work!"%>
+
+<% end %>
+
+<div class="user-question">
+  <h3><%= params["question"] %></h3>
+  <p>- You</p>
+</div>
+
+<div class="coach-answer">
+  <h3><%= coach_answer %></h3>
+  <p>- Your Coach</p>
+</div>
+
+<%= link_to "Ask a new question", ask_path, class:"link" %>

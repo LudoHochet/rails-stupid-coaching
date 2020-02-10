@@ -1,0 +1,51 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.user-question {
+  margin-left: 30px;
+  border-left: solid 6px rgba(100,100,100,0.5);
+  font-family: sans-serif;
+  font-weight: normal;
+  padding: 7px;
+}
+
+.user-question > h3, p {
+  padding-left: 20px;
+}
+
+.user-question h3 {
+  font-size: 24px;
+}
+
+.user-question > p {
+  font-size: 16px;
+}
+
+.coach-answer {
+  margin-left: 30px;
+  border-left: solid 6px rgba(100,100,100,0.5);
+  font-family: sans-serif;
+  font-weight: normal;
+  margin-top: 50px;
+  padding: 7px;
+  background-color: #FFFAEF;
+  margin-bottom: 30px;
+}
+
+.coach-answer > h3, p {
+  padding-left: 20px;
+}
+
+.coach-answer h3 {
+  font-size: 24px;
+}
+
+.coach-answer > p {
+  font-size: 16px;
+}
+
+.link {
+  padding-left: 30px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
